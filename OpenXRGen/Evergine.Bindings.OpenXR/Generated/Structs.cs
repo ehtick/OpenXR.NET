@@ -6418,6 +6418,14 @@ namespace Evergine.Bindings.OpenXR
 	}
 
 	[StructLayout(LayoutKind.Sequential)]
+	public unsafe partial struct XrSystemPassthroughProperties2FB
+	{
+		public XrStructureType type;
+		public void* next;
+		public ulong capabilities;
+	}
+
+	[StructLayout(LayoutKind.Sequential)]
 	public unsafe partial struct XrPassthroughCreateInfoFB
 	{
 		public XrStructureType type;

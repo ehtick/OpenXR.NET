@@ -137,9 +137,9 @@ namespace Evergine.Bindings.OpenXR
 		public const string XR_EXT_HP_MIXED_REALITY_CONTROLLER_EXTENSION_NAME = "XR_EXT_hp_mixed_reality_controller";
 		public const uint XR_MND_swapchain_usage_input_attachment_bit_SPEC_VERSION = 2;
 		public const string XR_MND_SWAPCHAIN_USAGE_INPUT_ATTACHMENT_BIT_EXTENSION_NAME = "XR_MND_swapchain_usage_input_attachment_bit";
-		public const uint XR_MSFT_scene_understanding_SPEC_VERSION = 1;
+		public const uint XR_MSFT_scene_understanding_SPEC_VERSION = 2;
 		public const string XR_MSFT_SCENE_UNDERSTANDING_EXTENSION_NAME = "XR_MSFT_scene_understanding";
-		public const uint XR_MSFT_scene_understanding_serialization_SPEC_VERSION = 1;
+		public const uint XR_MSFT_scene_understanding_serialization_SPEC_VERSION = 2;
 		public const string XR_MSFT_SCENE_UNDERSTANDING_SERIALIZATION_EXTENSION_NAME = "XR_MSFT_scene_understanding_serialization";
 		public const uint XR_FB_display_refresh_rate_SPEC_VERSION = 1;
 		public const string XR_FB_DISPLAY_REFRESH_RATE_EXTENSION_NAME = "XR_FB_display_refresh_rate";
@@ -155,9 +155,9 @@ namespace Evergine.Bindings.OpenXR
 		public const string XR_HTC_HAND_INTERACTION_EXTENSION_NAME = "XR_HTC_hand_interaction";
 		public const uint XR_HTC_vive_wrist_tracker_interaction_SPEC_VERSION = 1;
 		public const string XR_HTC_VIVE_WRIST_TRACKER_INTERACTION_EXTENSION_NAME = "XR_HTC_vive_wrist_tracker_interaction";
-		public const uint XR_FB_color_space_SPEC_VERSION = 2;
+		public const uint XR_FB_color_space_SPEC_VERSION = 3;
 		public const string XR_FB_COLOR_SPACE_EXTENSION_NAME = "XR_FB_color_space";
-		public const uint XR_FB_hand_tracking_mesh_SPEC_VERSION = 2;
+		public const uint XR_FB_hand_tracking_mesh_SPEC_VERSION = 3;
 		public const string XR_FB_HAND_TRACKING_MESH_EXTENSION_NAME = "XR_FB_hand_tracking_mesh";
 		public const uint XR_FB_hand_tracking_aim_SPEC_VERSION = 2;
 		public const string XR_FB_HAND_TRACKING_AIM_EXTENSION_NAME = "XR_FB_hand_tracking_aim";
@@ -178,10 +178,10 @@ namespace Evergine.Bindings.OpenXR
 		public const uint XR_MAX_KEYBOARD_TRACKING_NAME_SIZE_FB = 128;
 		public const uint XR_FB_triangle_mesh_SPEC_VERSION = 2;
 		public const string XR_FB_TRIANGLE_MESH_EXTENSION_NAME = "XR_FB_triangle_mesh";
-		public const uint XR_FB_passthrough_SPEC_VERSION = 2;
+		public const uint XR_FB_passthrough_SPEC_VERSION = 3;
 		public const string XR_FB_PASSTHROUGH_EXTENSION_NAME = "XR_FB_passthrough";
 		public const uint XR_PASSTHROUGH_COLOR_MAP_MONO_SIZE_FB = 256;
-		public const uint XR_FB_render_model_SPEC_VERSION = 2;
+		public const uint XR_FB_render_model_SPEC_VERSION = 3;
 		public const string XR_FB_RENDER_MODEL_EXTENSION_NAME = "XR_FB_render_model";
 		public const uint XR_MAX_RENDER_MODEL_NAME_SIZE_FB = 64;
 		public const uint XR_KHR_binding_modification_SPEC_VERSION = 1;
@@ -196,6 +196,8 @@ namespace Evergine.Bindings.OpenXR
 		public const string XR_VARJO_MARKER_TRACKING_EXTENSION_NAME = "XR_VARJO_marker_tracking";
 		public const uint XR_VARJO_view_offset_SPEC_VERSION = 1;
 		public const string XR_VARJO_VIEW_OFFSET_EXTENSION_NAME = "XR_VARJO_view_offset";
+		public const uint XR_ML_ml2_controller_interaction_SPEC_VERSION = 1;
+		public const string XR_ML_ML2_CONTROLLER_INTERACTION_EXTENSION_NAME = "XR_ML_ml2_controller_interaction";
 		public const uint XR_MSFT_spatial_anchor_persistence_SPEC_VERSION = 2;
 		public const string XR_MSFT_SPATIAL_ANCHOR_PERSISTENCE_EXTENSION_NAME = "XR_MSFT_spatial_anchor_persistence";
 		public const uint XR_MAX_SPATIAL_ANCHOR_NAME_SIZE_MSFT = 256;
